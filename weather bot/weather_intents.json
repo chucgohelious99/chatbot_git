@@ -1,0 +1,178 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Có ai ở đây không",
+        "Xin chào",
+        "Hello",
+        "Bạn ơi",
+        "Hi bạn ơi",
+        "Hello, chào bạn",
+        "alo alo",
+        "chào"
+      ],
+      "responses": [
+        "Chào bạn, liệu tôi có thể giúp gì cho bạn được",
+        "Thật vui vì được gặp bạn, Tôi có thể làm gì",
+        "Chào đằng đó, tôi có thể giúp gì được cho bạn"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "Thời tiết Hà Nội",
+        "Thời tiết hà nội ngày mai",
+        "Thời tiết hôm nay",
+        "Thời tiết hôm nay Hà Nội",
+        "Hà Nội hôm nay",
+        "Tình hình mưa hôm nay ở Hà Nội như thế nào",
+        "Cho mình thông tin thời tiết Hà Nội ngày hôm nay",
+        "cập nhật cho mình thông tin mưa nắng Hà Nội Hôm nay"
+      ],
+      "responses": [
+        "thời tiết"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "bây giờ ở hà nội là mấy giờ",
+        "bây giờ là mấy giờ",
+        "thời gian ở hà hội",
+        "đồng hồ ở Hà Nội chỉ mấy giờ",
+        "cập nhật đồng hồ Hà Nội",
+        "thời gian hiện tại",
+        "cập nhật thời gian hiện tại ở Hà Nội",
+        "cho mình hỏi mấy giờ rồi",
+        "mấy giờ rồi"
+      ],
+      "responses": [
+        "thời gian"
+      ]
+    },
+    {
+      "tag": "temperature",
+      "patterns": [
+        "Ngày mai Hà Nội có nóng không?",
+        "ngày mai Hà Nội có lạnh không?",
+        "ngày mai hà nội đã giảm nhiệt chưa",
+        "nhiệt độ Hà Nội ngày mai",
+        "mai trời Hà Nội có ấm hơn không",
+        "ngày mai nhiệt độ có tăng lên không",
+        "thông tin nhiệt độ tại Hà Nội Bây giờ",
+        "tình hình nhiệt độ Hiện tại",
+        "cho biết độ nóng lạnh hiện tại",
+        "ngoài trời bây giờ có mát không",
+        "Nhiệt độ Hà Nội"
+      ],
+      "responses": [
+        "nhiệt độ"
+      ]
+    },
+    {
+      "tag": "uv",
+      "patterns": [
+        "chỉ số UV Hà Nội",
+        "mức độ chiếu UV hiện tại",
+        "tình hình tia cực tím ở Hà nội",
+        "thông tin tia tử ngoại ngoài trời lúc này",
+        "ngày mai tia tử ngoại có chiếu mạnh không",
+        "hà nội chỉ số tia UV",
+        "khuyến cáo tình hình tia tử ngoại",
+        "mức độ nắng hiện tại ở Hà Nội có gây hại không",
+        "khả năng chiếu bức xạ ngày mai tại Hà Nội",
+        "bức xạ mặt trời ngày mai tại Hà Nội",
+        "tình hình tia tử ngoại lúc này",
+        "trồi ngày mai còn ẩm ướt nữa không",
+        "da có thế bị nguy hại dưới trời nắng hiện tại không",
+        "có thể tắm nắng với tình hình bức xạ hiện tại không",
+        "tình hình bức xạ hiện tại"
+      ],
+      "responses": [
+        "uv"
+      ]
+    },
+    {
+      "tag": "sunny",
+      "patterns": [
+        "ngày mai có oi không",
+        "ngày mai hà nội có nắng không?",
+        "ngày mai có nắng không",
+        "trời có oi không",
+        "liệu ngày mai có khô ráo không",
+        "ngày mai có ngừng mưa không",
+        "hôm nay nắng có lên không",
+        "trời ngày mai có khô ráo hay không",
+        "ngày mai nắng đã lên chưa",
+        "có nắng ngày mai không"
+      ],
+      "responses": [
+        "nắng"
+      ]
+    },
+    {
+      "tag": "precipitation",
+      "patterns": [
+        "khả năng mưa của Hà Nội Ngày mai",
+        "Ngày mai có mưa không",
+        "tôi có cần cầm t heo áo mưa bây giờ không",
+        "liệu có cần cầm dù ngày mai không",
+        "liệu có cần mang ô không",
+        "khả năng mưa hiện tại",
+        "có mưa ngày mai không",
+        "mang áo mưa ngày mai có cần thiết không",
+        "tình hình mưa ngày mai",
+        "cập nhật tình hình mưa ngày hôm nay",
+        "ngày mai ra ngoài có cần mang ô không",
+        "ngày mai ra ngoài thì có cần cầm dù không",
+        "liệu ngày mai đã có mưa chưa"
+      ],
+      "responses": [
+        "nắng"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Tạm biệt",
+        "hẹn gặp lại",
+        "bye bye",
+        "tạm biệt bạn",
+        "see you soon",
+        "see you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "cảm ơn vì giúp đỡ",
+        "thông tin hữu ích",
+        "sao hay vậy",
+        "biết hay thế",
+        "tài thế",
+        "siêu vậy",
+        "Thanks",
+        "cảm ơn",
+        "arigatou",
+        "xiexie",
+        "Thank you",
+        "cảm ơn nhé",
+        "That's helpful"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    }
+  ]
+}
